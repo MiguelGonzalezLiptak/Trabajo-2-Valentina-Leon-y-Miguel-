@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://www.patagoniaandina.com/wp-content/uploads/2020/04/Parque-Lanin-portada.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    color: white;
+}
+
+#tituloPrinc{
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #48aedc;
+}
+
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#ingresar{
+    font-size: 25px;
+    margin-top: 28px;
+}
+
+#ingresar a{
+    text-decoration: none;
+    color: black;
+}
+
+#faunayflora{
+    font-size: 25px;
+    margin-top: 28px;
+    color: black;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.submenu li a{
+    display: none;
+}
+
+.submenu ul:hover  a{
+    display: block;
+    background-color:#87c9f7;
+    animation:aparecer 2s;
+}
+
+fieldset{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+h2{
+    margin-left: 10px;
+}
+
+#seleccion{
+    margin-left: 10px;
+}
+
+.margen{
+    margin-left: 10px;
+}
+
+footer{
+    background-color:#65728d;
+}
+
+.redes{
+    width: 50px;
+    height: 50px;
+}
+
+.contacto{
+    text-align: end;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #65728d;
+}
+
+.contenedor{
+    margin-bottom: 25%;
+}
